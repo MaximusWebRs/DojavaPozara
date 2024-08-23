@@ -904,7 +904,7 @@ form h1 {
 }
 
 #form-selectors .wrapper {
-    max-height: 110px;
+    max-height: 160px;
 }
 
 #form-selectors-extra .wrapper {
@@ -1481,6 +1481,10 @@ form h1 {
 }
 
 @media only screen and (max-width: 450px) {
+    footer {
+        padding: 30px 10px 50px 10px;
+    }
+
     #form-selectors {
         flex-direction: column;
     }
