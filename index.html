@@ -30,17 +30,14 @@ https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
                 <h1>DOJAVA POŽARA<p>Brzo, kvalitetno i povoljno.</p></h1>
             </div>
             <nav id="header-websites-navigation">
-                <a href="https://vrata-metal-detektor.rs/">
-                    Vrata Metal Detektori
+                <a href="https://maximuswebrs.github.io/GlavniPortal">
+                    Glavni Portal
                 </a>
-                <a href="maximus-video-nadzor.com">
-                    Video nadzor
+                <a href="https://vrata-metal-detektor.rs">
+                    Vrata Metal Detektor
                 </a>
-                <a href="maximus-dojava-pozara.com">
-                    Dojava pozara
-                </a>
-                <a href="maximus-telekom.com">
-                    Telekomunikacije
+                <a href="https://maximuswebrs.github.io/ElektroInstalacije">
+                    Elektro Instalacije
                 </a>
             </nav>
             <div id="header-websites-menu-button">
@@ -307,51 +304,39 @@ https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
                         <label for="form-selector-offer-household">Kuća</label><br>
                     </div>
                 </div>
+                <div id="form-selectors-system">
+                    <h2>Sistem</h2>
+                    <div class="wrapper">
+                        <input type="radio" id="form-selector-system-addressible" name="system" value="Adresibilni" checked>
+                        <label for="form-selector-system-addressible">Adresibilni</label><br>
+                        <input type="radio" id="form-selector-system-conventional" name="system" value="Konvencionalni">
+                        <label for="form-selector-system-conventional">Konvencionalni</label><br>
+                        <input type="radio" id="form-selector-system-co" name="system" value="CO Detekcija">
+                        <label for="form-selector-system-co">CO Detekcija</label><br>
+                    </div>
+                </div>
                 <div id="form-selectors-extra">
                     <h2>Usluge</h2>
                     <div class="wrapper" required>
-                        <input type="checkbox" id="form-selector-extra-conventionalcentral" name="extra" value="Ugradnja konvencionalne centrale"
+                        <input type="checkbox" id="form-selector-extra-installations" name="extra" value="Instalacije"
                             checked>
-                        <label for="form-selector-extra-conventionalcentral">Ugradnja konvencionalne centrale</label><br>
+                        <label for="form-selector-extra-installations">Instalacije</label><br>
+                        
+                        <input type="checkbox" id="form-selector-extra-ccentral" name="extra" value="Ugradnja centrale">
+                        <label for="form-selector-extra-central">Ugradnja centrale</label><br>
 
-                        <input type="checkbox" id="form-selector-extra-conventionaldetector" name="extra" value="Montiranje konvencionalnih detektora">
-                        <label for="form-selector-extra-conventionaldetector">Montiranje konvencionalnih detektora</label><br>
+                        <input type="checkbox" id="form-selector-extra-detector" name="extra" value="Montiranje detektora">
+                        <label for="form-selector-extra-detector">Montiranje detektora</label><br>
 
-                        <input type="checkbox" id="form-selector-extra-conventionalcaller" name="extra" value="Montiranje konvencionalnih ručnih javljača">
-                        <label for="form-selector-extra-conventionalcaller">Montiranje konvencionalnih ručnih javljača</label><br>
+                        <input type="checkbox" id="form-selector-extra-caller" name="extra" value="Montiranje ručnih javljača">
+                        <label for="form-selector-extra-caller">Montiranje ručnih javljača</label><br>
 
-                        <input type="checkbox" id="form-selector-extra-conventionalmodule" name="extra" value="Instalacija konvencionalnih modula">
-                        <label for="form-selector-extra-conventionalmodule">Instalacija konvencionalnih modula</label><br>
+                        <input type="checkbox" id="form-selector-extra-module" name="extra" value="Instalacija dodatnih modula">
+                        <label for="form-selector-extra-module">Instalacija dodatnih modula</label><br>
 
-                        <input type="checkbox" id="form-selector-extra-conventionalsiren" name="Montiranje konvencionalnih sirena"
+                        <input type="checkbox" id="form-selector-extra-siren" name="Montiranje sirena"
                             value="Podno grejanje">
-                        <label for="form-selector-extra-conventionalsiren">Montiranje konvencionalnih sirena</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-adresiblecentral" name="extra"
-                            value="Ugradnja adresibilne centrale">
-                        <label for="form-selector-extra-adresiblecentral">Ugradnja adresibilne centrale</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-adresibledetector" name="extra" value="Montiranje adresibilnih detektora">
-                        <label for="form-selector-extra-adresibledetector">Montiranje adresibilnih detektora</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-adresiblecaller" name="extra" value="Montiranje adresibilnih ručnih javljača">
-                        <label for="form-selector-extra-adresiblecaller">Montiranje adresibilnih ručnih javljača</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-adresiblemodule" name="extra"
-                            value="Instalacija adresibilnih modula">
-                        <label for="form-selector-extra-adresiblemodule">Instalacija adresibilnih modula</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-adresiblesiren" name="extra"
-                            value="Montiranje adresibilnih sirena">
-                        <label for="form-selector-extra-adresiblesiren">Montiranje adresibilnih sirena</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-cocentral" name="extra"
-                            value="Ugranja CO centrale">
-                        <label for="form-selector-extra-cocentral">Ugranja CO centrale</label><br>
-
-                        <input type="checkbox" id="form-selector-extra-cosystem" name="extra"
-                            value="Montiranje CO sistema">
-                        <label for="form-selector-extra-cosystem">Montiranje CO sistema</label><br>
+                        <label for="form-selector-extra-siren">Montiranje sirena</label><br>
 
                         <input type="checkbox" id="form-selector-extra-systemservice" name="extra"
                             value="Servis sistema">
@@ -359,6 +344,8 @@ https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
                     </div>
                 </div>
             </div>
+            <label for="form-desc">Napomena: </label>
+            <textarea rows="3" id="form-desc" maxlength="200"></textarea>
             <label for="form-name">Ime, prezime: </label>
             <input type="text" required id="form-name">
             <label for="form-phone">Kontakt telefon: </label>
@@ -385,14 +372,14 @@ https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
         </section>
         <nav id="footer-websites">
             <h2>NAŠA REŠENJA</h2>
-            <a href="maximus-video-nadzor.com">
-                Video nadzor
+            <a href="https://maximuswebrs.github.io/GlavniPortal">
+                Glavni Portal
             </a>
-            <a href="maximus-dojava-pozara.com">
-                Dojava pozara
+            <a href="https://vrata-metal-detektor.rs">
+                Vrata Metal Detektor
             </a>
-            <a href="maximus-telekom.com">
-                Telekomunikacije
+            <a href="https://maximuswebrs.github.io/ElektroInstalacije">
+                Elektro Instalacije
             </a>
         </nav>
     </footer>
